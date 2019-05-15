@@ -1,0 +1,2 @@
+# algorithmNote
+personal algorithm note
