@@ -11,7 +11,7 @@
 		AF40FBB4228C0382001CAFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF40FBB2228C0382001CAFA9 /* Main.storyboard */; };
 		AF40FBB6228C0383001CAFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF40FBB5228C0383001CAFA9 /* Assets.xcassets */; };
 		AF40FBB9228C0383001CAFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF40FBB7228C0383001CAFA9 /* LaunchScreen.storyboard */; };
-		AF40FBC1228C0AE3001CAFA9 /* MergeSort_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40FBC0228C0AE3001CAFA9 /* MergeSort_Controller.swift */; };
+		AFAA452F228EA6C60051B629 /* LeeCode0_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA452E228EA6C60051B629 /* LeeCode0_Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 		AF40FBB5228C0383001CAFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF40FBB8228C0383001CAFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF40FBBA228C0383001CAFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF40FBC0228C0AE3001CAFA9 /* MergeSort_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort_Controller.swift; sourceTree = "<group>"; };
+		AFAA452E228EA6C60051B629 /* LeeCode0_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode0_Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				AF40FBAE228C0382001CAFA9 /* AppDelegate.swift */,
-				AF40FBC0228C0AE3001CAFA9 /* MergeSort_Controller.swift */,
+				AFAA452E228EA6C60051B629 /* LeeCode0_Controller.swift */,
 				AF40FBB2228C0382001CAFA9 /* Main.storyboard */,
 				AF40FBB5228C0383001CAFA9 /* Assets.xcassets */,
 				AF40FBB7228C0383001CAFA9 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF40FBC1228C0AE3001CAFA9 /* MergeSort_Controller.swift in Sources */,
+				AFAA452F228EA6C60051B629 /* LeeCode0_Controller.swift in Sources */,
 				AF40FBAF228C0382001CAFA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

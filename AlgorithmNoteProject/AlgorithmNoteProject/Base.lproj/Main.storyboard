@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--LeeCode-->
         <scene sceneID="aHs-oZ-JSE">
             <objects>
                 <tableViewController id="rXn-qO-U6y" sceneMemberID="viewController">
@@ -28,7 +28,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="70.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Merge Sort" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ohe-di-j3C">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="从排序数组中删除重复项" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ohe-di-j3C">
                                                     <rect key="frame" x="20" y="11" width="374" height="49"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -43,7 +43,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="d75-UX-EQZ" kind="show" id="hdu-Xi-b87"/>
+                                            <segue destination="bbl-bL-w2P" kind="show" id="Nv8-GH-Ehi"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -54,40 +54,42 @@
                             <outlet property="delegate" destination="rXn-qO-U6y" id="4PX-jN-CjQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="6Vh-3i-aPt"/>
+                    <navigationItem key="navigationItem" title="LeeCode" id="6Vh-3i-aPt"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G2G-WZ-DAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1036" y="640"/>
         </scene>
-        <!--归并算法-->
-        <scene sceneID="cJr-gf-Wlc">
+        <!--从排序数组中删除重复项-->
+        <scene sceneID="C8t-Xi-7oV">
             <objects>
-                <viewController storyboardIdentifier="MergeSort_Controller" id="d75-UX-EQZ" customClass="MergeSort_Controller" customModule="AlgorithmNoteProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="KVf-tW-pNG">
+                <viewController storyboardIdentifier="LeeCode0_Controller" id="bbl-bL-w2P" customClass="LeeCode0_Controller" customModule="AlgorithmNoteProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hap-pc-P8A">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sadfasd" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHu-1B-xnl">
-                                <rect key="frame" x="20" y="138" width="374" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzm-Rt-mTA">
+                                <rect key="frame" x="50" y="138" width="314" height="20.5"/>
+                                <color key="backgroundColor" red="1" green="0.96078431369999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwa-Dd-LL9">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBp-fK-j4Y">
                                 <rect key="frame" x="157" y="208.5" width="100" height="50"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.74509803919999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="CvX-MD-PNT"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="IvM-7g-NCt"/>
+                                    <constraint firstAttribute="width" constant="100" id="p2v-Jc-c1b"/>
+                                    <constraint firstAttribute="height" constant="50" id="wSK-mP-TbE"/>
                                 </constraints>
                                 <state key="normal" title="排序"/>
                                 <connections>
-                                    <action selector="click:" destination="d75-UX-EQZ" eventType="touchUpInside" id="5CE-8q-fCB"/>
+                                    <action selector="click:" destination="bbl-bL-w2P" eventType="touchUpInside" id="idn-Sb-gqc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yzd-9c-pBI">
-                                <rect key="frame" x="20" y="308.5" width="374" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7R-WR-J7q">
+                                <rect key="frame" x="50" y="308.5" width="314" height="0.0"/>
+                                <color key="backgroundColor" red="1" green="0.96078431369999995" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -95,27 +97,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="oqB-qJ-Bja" firstAttribute="trailing" secondItem="Yzd-9c-pBI" secondAttribute="trailing" constant="20" id="234-um-vAm"/>
-                            <constraint firstItem="vwa-Dd-LL9" firstAttribute="top" secondItem="tHu-1B-xnl" secondAttribute="bottom" constant="50" id="6sQ-Jq-bbP"/>
-                            <constraint firstItem="Yzd-9c-pBI" firstAttribute="top" secondItem="vwa-Dd-LL9" secondAttribute="bottom" constant="50" id="9Hf-dd-tq0"/>
-                            <constraint firstItem="tHu-1B-xnl" firstAttribute="leading" secondItem="oqB-qJ-Bja" secondAttribute="leading" constant="20" id="Nfn-bQ-ZZu"/>
-                            <constraint firstItem="vwa-Dd-LL9" firstAttribute="centerX" secondItem="oqB-qJ-Bja" secondAttribute="centerX" id="Z1d-Sw-ehI"/>
-                            <constraint firstItem="oqB-qJ-Bja" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Yzd-9c-pBI" secondAttribute="bottom" id="b9K-Ks-PQs"/>
-                            <constraint firstItem="Yzd-9c-pBI" firstAttribute="leading" secondItem="oqB-qJ-Bja" secondAttribute="leading" constant="20" id="kqN-6p-Erj"/>
-                            <constraint firstItem="oqB-qJ-Bja" firstAttribute="trailing" secondItem="tHu-1B-xnl" secondAttribute="trailing" constant="20" id="ngj-fw-2OM"/>
-                            <constraint firstItem="tHu-1B-xnl" firstAttribute="top" secondItem="oqB-qJ-Bja" secondAttribute="top" constant="50" id="t3f-uY-6c5"/>
+                            <constraint firstItem="VBp-fK-j4Y" firstAttribute="top" secondItem="Kzm-Rt-mTA" secondAttribute="bottom" constant="50" id="EP5-hs-tPM"/>
+                            <constraint firstItem="E8J-cu-8WP" firstAttribute="trailing" secondItem="Kzm-Rt-mTA" secondAttribute="trailing" constant="50" id="KU5-r7-wAh"/>
+                            <constraint firstItem="Kzm-Rt-mTA" firstAttribute="leading" secondItem="E8J-cu-8WP" secondAttribute="leading" constant="50" id="PUX-UH-mxL"/>
+                            <constraint firstItem="E8J-cu-8WP" firstAttribute="trailing" secondItem="Y7R-WR-J7q" secondAttribute="trailing" constant="50" id="S3Z-UI-LVm"/>
+                            <constraint firstItem="Y7R-WR-J7q" firstAttribute="top" secondItem="VBp-fK-j4Y" secondAttribute="bottom" constant="50" id="VVI-K6-Wm5"/>
+                            <constraint firstItem="VBp-fK-j4Y" firstAttribute="centerX" secondItem="E8J-cu-8WP" secondAttribute="centerX" id="VqF-mh-RlO"/>
+                            <constraint firstItem="Y7R-WR-J7q" firstAttribute="leading" secondItem="E8J-cu-8WP" secondAttribute="leading" constant="50" id="jeb-s7-FAG"/>
+                            <constraint firstItem="Kzm-Rt-mTA" firstAttribute="top" secondItem="E8J-cu-8WP" secondAttribute="top" constant="50" id="qTl-ge-qgS"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="oqB-qJ-Bja"/>
+                        <viewLayoutGuide key="safeArea" id="E8J-cu-8WP"/>
                     </view>
-                    <navigationItem key="navigationItem" title="归并算法" id="cC1-BD-12i"/>
+                    <navigationItem key="navigationItem" title="从排序数组中删除重复项" id="0WR-xs-gsC"/>
                     <connections>
-                        <outlet property="firstLB" destination="tHu-1B-xnl" id="slF-fA-XWb"/>
-                        <outlet property="secondLB" destination="Yzd-9c-pBI" id="UpX-8P-2Yh"/>
+                        <outlet property="firstLB" destination="Kzm-Rt-mTA" id="pgO-FW-0Rc"/>
+                        <outlet property="secondLB" destination="Y7R-WR-J7q" id="nj5-Fp-87j"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9jA-AV-h9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aa6-Ha-kML" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1994" y="640"/>
+            <point key="canvasLocation" x="2721" y="640"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yIb-cc-IHh">
